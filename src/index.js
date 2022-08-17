@@ -15,7 +15,7 @@ function onSearch() {
 	listEl.innerHTML = '';
 	if (inputEl.value !== '') {
 
-		trimInput = (inputEl.value).trim();
+		let trimInput = inputEl.value.trim();
 		fetchCountries(trimInput)
 			.then(d => {
 				if (d.length > 10) {
