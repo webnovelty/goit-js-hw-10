@@ -18,3 +18,34 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+
+ul {
+  margin-left: 0;
+  /* Отступ слева в браузере IE и Opera */
+  padding-left: 0;
+  /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.flags {
+  margin: 10px 10px 10px 0;
+  display: flex;
+  align-items: center;
+}
+.img-flag {
+  margin: 10px;
+  width: 40px;
+  height: 25px;
+}
+.info {
+  margin: 10px;
+}
+.title-info {
+  font-weight: bold;
+}
